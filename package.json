@@ -1,0 +1,29 @@
+{
+  "name": "api.avav.meme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "npx nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "body-parser": "^1.20.2",
+    "compress": "^0.99.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.35.2",
+    "sqlite3": "^5.1.7-rc.0"
+  },
+  "devDependencies": {
+    "errorhandler": "^1.5.1",
+    "js-beautify": "^1.14.11",
+    "nodemon": "^3.0.2"
+  }
+}
