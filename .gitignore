@@ -39,3 +39,7 @@ node_modules
 .node_repl_history
 _site
 repos
+
+#database
+/data
+./data

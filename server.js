@@ -17,18 +17,8 @@ app.use(logger('dev'));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(methodOverride());
 
-// models
-var models = require("./models");
-
 // routes
 var ArtVotes = require('./routes/avav_art');
-
-//Sync Database
-models.sequelize.sync().then(function() {
-    console.log('connected to database')
-}).catch(function(err) {
-    console.log(err)
-});
 
 // cors
 const cors=require("cors");
